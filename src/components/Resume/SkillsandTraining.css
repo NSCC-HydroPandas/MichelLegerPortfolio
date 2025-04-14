@@ -1,0 +1,15 @@
+ul{
+   display:flow-root;
+   list-style-type:disc;
+   text-align: left;
+   font-size: 20px;
+}
+
+ol{
+    display:flow-root;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 22px;
+
+}

@@ -1,0 +1,70 @@
+#root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  min-width:8.5px;
+  min-height: 11px;
+  
+}
+
+.row {
+    display:flex;
+}
+
+.personalinfo {
+    color:aliceblue;
+    text-align:right;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color:aliceblue;
+    text-align: left;
+    font-size:25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.column {
+  flex:auto;
+  font-size: 25px;
+  list-style-position: inside;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  font-size:30px;
+  font-style: oblique;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionheader {
+  text-align: left;
+  font-size:40px;
+  font-style:normal;
+  font-weight: 900px;
+}
+
+hr {
+  width:100%;
+  size:2;
+  border-color:rgb(0, 64, 255);
+}
+
+.intro {
+  text-align:end;
+  font-size:25px;
+  
+}
+
+img {
+  width:20%;
+  height:15%;
+}
+
+
