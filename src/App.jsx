@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <head>
-    <link rel="icon" href="../public/portfolio-vector-icon.jpg"/>
+    <link rel="icon" href="./src/assets/public/portfolio-vector-icon.jpg"/>
       <title>Michel Leger's Porfolio</title>
     </head>
       <Resume/>
