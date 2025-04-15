@@ -10,7 +10,7 @@ function Resume() {
 
     const [links, setLinks] = useState([]);
 
-    useEffect(() => {fetch('./src/assets/Links.json')
+    useEffect(() => {fetch('/Links.json')
         .then(response => response.json())
         .then(data => setLinks(data))})
     
@@ -71,7 +71,7 @@ function Resume() {
         <hr/>
 
         <div className="personalinfo">
-        <img src="./src/assets/public/Leger.jpg" alt="Porfolio Image" />
+        <img src="Leger.jpg" alt="Porfolio Image" />
         <p className="intro">
            As a Hydrographic Surveyor with interest in computer programming I have developed automated and semi-automated workflows using python coupled with batch processors to accomplish final products. I have recently expanded my knowledge and interest in programming through AI programming.
         </p></div>
